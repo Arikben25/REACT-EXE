@@ -1,0 +1,13 @@
+.headerContainer {
+    height: 100px;
+    width: 600px;
+  /* text-align: center; */
+  padding: 10px;
+  background-color: #bb6e6e;
+  border-bottom: 2px solid #ddd;
+}
+
+.headerTitle {
+  font-size: 3em;
+  color: #521b1b;
+}

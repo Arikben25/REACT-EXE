@@ -1,0 +1,50 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #2a0b0b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  background-color: rgb(137, 137, 179);
+  margin-top: 20px;
+}
+
+img{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 100px;
+  height: auto;
+}
+
+.profileImage {
+    background-color: rgb(230, 85, 59);
+    gap: 10px;
+    margin-top: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.profileName {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.profileDescription {
+  font-size: 1em;
+  color: #524b4b;
+}
+
+.aaaa {
+  
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;      
+  justify-content: center;
+  align-items: flex-start; 
+  width: 100%;
+}

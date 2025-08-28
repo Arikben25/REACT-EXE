@@ -1,0 +1,29 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin-top: 15px; 
+}
+
+
+.friend {
+  background-color: #28a745;
+}
+
+.teacher {
+  background-color: #007bff;
+}
+
+.student {
+  background-color: #6f42c4;
+}
+
+/* אפקט ריחוף */
+.button:hover {
+  opacity: 0.8;
+}
